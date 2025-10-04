@@ -76,7 +76,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Purva Ughade     | ✓      | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
 | Jayant Meshram   | ✓      | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
 | Ganesh D         | ✓      | Shegaon                   | Religious    | famous for its shani mandir                               |
-
+| himanshu mishra  | ✓      | Nashik Trimbakeshwar      | Religious    | Jyotirlinga shrines dedicated to Lord Shiva               |
 ## How to Claim Your Place
 
 1. **Edit this README.md file**

@@ -31,7 +31,16 @@ Nearest Railway Station
 placetype 
 
 
-
+Each trainee should pick one story-here one place
+Mumbai-Pune-Nagpur-Sambaji Nagar-Kolapur
+Ajanta Ellora
+Kaas Pathar - Lonar Salt lake
+Mahabaleswar-Lona walla-Arichandra Ghat-Igatpuri-Pach Madi-Cikandara-Seven Sisters Hills
+Ratnagiri-Ganpat Pule-Aare Ware-
+Raighad
+Thosigar Falls
+Pandharpur Vital Mandir-Kolapur-Lakshmi Temple
+Pick one and update here
 
 
 

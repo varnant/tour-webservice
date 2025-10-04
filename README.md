@@ -53,7 +53,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | ------- | ------ | ------------------------- | ------------ | --------------------------------------------------------- |
 |         |        | Mumbai                    | City         | Financial capital with beaches, landmarks, and markets    |
 |         |        | Pune                      | City         | Cultural hub with forts, gardens, heritage sites          |
-|         |        | Nagpur                    | City         | Orange city, Zero Mile Marker, Futala Lake                |
+|utkarsha       | Done       | Nagpur                    | City         | Orange city, Zero Mile Marker, Futala Lake                |
 |         |        | Sambhaji Nagar            | City         | Historical city near Ajanta & Ellora caves                |
 |         |        | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
 |         |        | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |

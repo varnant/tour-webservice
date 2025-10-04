@@ -75,7 +75,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Chetan Rathod    | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
 | Purva Ughade     | ✓      | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
 | Jayant Meshram   | ✓      | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
-| Ganesh D         | ✓      | Shegaon                   | Religious    | famous for its shani mandir                               |
+| Ganesh D         | ✓      | Shegaon                   | Religious    | famous for its Gajanan Maharaj mandir                               |
 
 ## How to Claim Your Place
 

@@ -58,7 +58,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Vaibhavi G       | ✓      | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
 | Prashika T       | ✓      | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |
 |PAWAN DIGHORE       |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
-|Minal D            |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
+|Minal D            | ✓         | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
 | Gaytari J        | ✓      | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
 | Mansi N          | ✓      | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
 | Shantanu Dorle   | ✓      | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |

@@ -10,31 +10,31 @@
 
 ## Assignment Status
 
-| Trainee Name | Choice | Place Name                | Place Type   | Status    | Controller Class Name             |
-| ------------ | ------ | ------------------------- | ------------ | --------- | --------------------------------- |
-|              |        | Mumbai                    | City         | Available | MumbaiController                  |
-|              |        | Pune                      | City         | Available | PuneController                    |
-|              |        | Nagpur                    | City         | Available | NagpurController                  |
-|              |        | Sambhaji Nagar            | City         | Available | SambhajiNagarController           |
-|              |        | Kolhapur                  | City         | Available | KolhapurController                |
-|              |        | Ajanta                    | Historical   | Available | AjantaController                  |
-|              |        | Ellora                    | Historical   | Available | ElloraController                  |
-|              |        | Kaas Pathar               | Geography    | Available | KaasPatharController              |
-|              |        | Lonar Salt Lake           | Geography    | Available | LonarSaltLakeController           |
-|              |        | Mahabaleshwar             | Hill Station | Available | MahabaleshwarController           |
-|              |        | Lonavala                  | Hill Station | Available | LonavalaController                |
-|              |        | Harishchandra Ghat        | Hill Station | Available | HarishchandraGhatController       |
-|              |        | Igatpuri                  | Hill Station | Available | IgatpuriController                |
-|              |        | Pach Madi                 | Hill Station | Available | PachMadiController                |
-|              |        | Chikandara                | Hill Station | Available | ChikandaraController              |
-|              |        | Seven Sisters Hills       | Hill Station | Available | SevenSistersHillsController       |
-|              |        | Ratnagiri                 | Beach        | Available | RatnagiriController               |
-|              |        | Ganpatipule               | Beach        | Available | GanpatipuleController             |
-|              |        | Aare Ware                 | Beach        | Available | AareWareController                |
-|              |        | Raighad                   | Historical   | Available | RaighadController                 |
-|              |        | Thoseghar Falls           | Waterfall    | Available | ThosegharFallsController          |
-|              |        | Pandharpur Vitthal Mandir | Religious    | Available | PandharpurVitthalMandirController |
-|              |        | Kolhapur Lakshmi Temple   | Religious    | Available | KolhapurLakshmiTempleController   |
+| Trainee Name | Choice | Place Name                | Place Type   | Status      | Controller Class Name             |
+| ------------ | ------ | ------------------------- | ------------ | ----------- | --------------------------------- |
+|              |        | Mumbai                    | City         | Available   | MumbaiController                  |
+|              |        | Pune                      | City         | Available   | PuneController                    |
+|              |        | Nagpur                    | City         | Available   | NagpurController                  |
+|              |        | Sambhaji Nagar            | City         | Available   | SambhajiNagarController           |
+|              |        | Kolhapur                  | City         | Available   | KolhapurController                |
+|              |        | Ajanta                    | Historical   | Available   | AjantaController                  |
+|              |        | Ellora                    | Historical   | Available   | ElloraController                  |
+|              |        | Kaas Pathar               | Geography    | Available   | KaasPatharController              |
+|              |        | Lonar Salt Lake           | Geography    | Available   | LonarSaltLakeController           |
+|              |        | Mahabaleshwar             | Hill Station | Available   | MahabaleshwarController           |
+|              |        | Lonavala                  | Hill Station | Available   | LonavalaController                |
+|              |        | Harishchandra Ghat        | Hill Station | Available   | HarishchandraGhatController       |
+|              |        | Igatpuri                  | Hill Station | Available   | IgatpuriController                |
+| Sudhanshu S  | ✓      | Pach Madi                 | Hill Station | In Progress | PachMadiController                |
+|              |        | Chikandara                | Hill Station | Available   | ChikandaraController              |
+|              |        | Seven Sisters Hills       | Hill Station | Available   | SevenSistersHillsController       |
+|              |        | Ratnagiri                 | Beach        | Available   | RatnagiriController               |
+|              |        | Ganpatipule               | Beach        | Available   | GanpatipuleController             |
+|              |        | Aare Ware                 | Beach        | Available   | AareWareController                |
+|              |        | Raighad                   | Historical   | Available   | RaighadController                 |
+|              |        | Thoseghar Falls           | Waterfall    | Available   | ThosegharFallsController          |
+|              |        | Pandharpur Vitthal Mandir | Religious    | Available   | PandharpurVitthalMandirController |
+|              |        | Kolhapur Lakshmi Temple   | Religious    | Available   | KolhapurLakshmiTempleController   |
 
 ## Instructions for Trainees
 

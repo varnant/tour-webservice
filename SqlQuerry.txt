@@ -1,18 +1,14 @@
--- Create a database for the tour project
 CREATE DATABASE IF NOT EXISTS tour_webservice;
 USE tour_webservice;
 
--- Drop tables if they exist (to avoid conflicts when re-running)
 DROP TABLE IF EXISTS places_details;
 DROP TABLE IF EXISTS placetype;
 
--- Create placetype table
 CREATE TABLE placetype (
     refid INT PRIMARY KEY,
     place_type VARCHAR(100) NOT NULL
 );
 
--- Insert values into placetype
 INSERT INTO placetype (refid, place_type) VALUES
 (1, 'City'),
 (2, 'Hill Station'),
@@ -24,7 +20,6 @@ INSERT INTO placetype (refid, place_type) VALUES
 (8, 'Religious - Temples, Churches, Mosques, Mutts'),
 (9, 'Seasonal Festivals');
 
--- Create places_details table
 CREATE TABLE places_details (
     place_id INT PRIMARY KEY AUTO_INCREMENT,
     place_name VARCHAR(150) NOT NULL,
@@ -40,7 +35,6 @@ CREATE TABLE places_details (
     FOREIGN KEY (placetype) REFERENCES placetype(refid)
 );
 
--- Insert sample data into places_details
 INSERT INTO places_details 
 (place_name, description, location, google_location, places_to_visit, season, crime_against_tourists, nearest_airport, nearest_railway_station, placetype)
 VALUES
@@ -49,72 +43,92 @@ VALUES
 'Gateway of India, Marine Drive, Elephanta Caves, Juhu Beach', 'All Seasons', 'Low', 
 'Chhatrapati Shivaji Maharaj International Airport', 'Chhatrapati Shivaji Maharaj Terminus', 1),
 
-('Mahabaleshwar', 'Popular hill station in the Western Ghats known for strawberries, viewpoints and waterfalls', 
-'Satara, Maharashtra', 'https://goo.gl/maps/N3n2V9D9BxP2',
-'Venna Lake, Mapro Garden, Arthur’s Seat, Pratapgad Fort', 'Summer/Winter', 'Very Low',
-'Pune Airport', 'Wathar Railway Station', 2),
-
-('Alibaug Beach', 'Coastal town known for beaches, forts, and water sports', 
-'Raigad, Maharashtra', 'https://goo.gl/maps/bJ9XH9Nwzk62',
-'Alibaug Beach, Kolaba Fort, Nagaon Beach, Kihim Beach', 'Winter/Summer', 'Low',
-'Mumbai Airport', 'Panvel Railway Station', 3),
-
-('Ajanta Caves', 'UNESCO World Heritage site with rock-cut Buddhist caves and paintings', 
-'Aurangabad, Maharashtra', 'https://goo.gl/maps/ETb1n1Z8chF2',
-'Ajanta Caves, Ellora Caves, Daulatabad Fort, Bibi Ka Maqbara', 'Winter', 'Low',
-'Aurangabad Airport', 'Aurangabad Railway Station', 5),
-
-('Ganesh Chaturthi Festival', 'Grand celebration of Lord Ganesha with processions and cultural programs across Maharashtra', 
-'Mumbai, Pune, Nagpur, Maharashtra', 'https://goo.gl/maps/rvU38H1fThJ2',
-'Lalbaugcha Raja, Dagdusheth Ganpati Mandir, Street Processions', 'Monsoon (Aug-Sep)', 'Medium',
-'Mumbai Airport', 'Mumbai Central Railway Station', 9),
-
-('Lonavala', 'Famous hill station near Mumbai and Pune, known for greenery, caves, and forts', 
-'Pune District, Maharashtra', 'https://goo.gl/maps/RyxAGvB9iTt',
-'Bhushi Dam, Karla Caves, Rajmachi Fort, Tiger Point', 'Monsoon/Winter', 'Low',
-'Pune Airport', 'Lonavala Railway Station', 2),
-
-('Shirdi', 'Major pilgrimage town known for Sai Baba Temple', 
-'Ahmednagar, Maharashtra', 'https://goo.gl/maps/BkQAfodNQmK2',
-'Sai Baba Temple, Shani Shingnapur nearby', 'All Seasons', 'Low',
-'Shirdi Airport', 'Sainagar Shirdi Railway Station', 8),
-
-('Tadoba National Park', 'Largest and oldest national park in Maharashtra, famous for Bengal tigers', 
-'Chandrapur, Maharashtra', 'https://goo.gl/maps/wF5vJTYvB9L2',
-'Tiger Safari, Tadoba Lake, Andhari River', 'Winter', 'Low',
-'Nagpur Airport', 'Chandrapur Railway Station', 7),
-
-('Ellora Caves', 'Rock-cut caves showcasing Hindu, Buddhist, and Jain monuments, UNESCO site', 
-'Aurangabad, Maharashtra', 'https://goo.gl/maps/fDFkG7xkzwP2',
-'Kailasa Temple, Buddhist caves, Jain caves', 'Winter', 'Low',
-'Aurangabad Airport', 'Aurangabad Railway Station', 5),
-
-('Sinhagad Fort', 'Historic hill fortress near Pune, famous for Tanaji Malusare’s battle', 
-'Pune, Maharashtra', 'https://goo.gl/maps/7eh9QfP6QnB2',
-'Sinhagad Fort, Khadakwasla Dam, Panshet Dam', 'Winter', 'Low',
-'Pune Airport', 'Pune Railway Station', 5),
-
-('Panchgani', 'Hill station surrounded by five hills and strawberry farms', 
-'Satara, Maharashtra', 'https://goo.gl/maps/X7f7yoF3n2N2',
-'Table Land, Sydney Point, Parsi Point, Mapro Garden', 'Winter/Summer', 'Very Low',
-'Pune Airport', 'Wathar Railway Station', 2),
-
-('Bhandardara', 'Scenic village with waterfalls, forts, and trekking spots', 
-'Ahmednagar, Maharashtra', 'https://goo.gl/maps/kcZgxZk9G52',
-'Randha Falls, Wilson Dam, Ratangad Fort', 'Monsoon/Winter', 'Very Low',
-'Mumbai Airport', 'Igatpuri Railway Station', 4),
-
 ('Nagpur', 'Known as the Orange City, famous for Zero Mile Marker and Diksha Bhoomi', 
 'Nagpur, Maharashtra', 'https://goo.gl/maps/nAZRq4g7c3o',
-'Diksha Bhoomi, Deekshabhoomi Stupa, Futala Lake, Dragon Palace Temple', 'Winter', 'Low',
+'Diksha Bhoomi, Futala Lake, Dragon Palace Temple', 'Winter', 'Low',
 'Dr. Babasaheb Ambedkar International Airport', 'Nagpur Railway Station', 1),
 
-('Trimbakeshwar', 'One of the 12 Jyotirlingas dedicated to Lord Shiva', 
-'Nashik District, Maharashtra', 'https://goo.gl/maps/1WyP4EHpzjG2',
-'Trimbakeshwar Temple, Brahmagiri Hill, Kushavarta Kund', 'All Seasons', 'Low',
-'Nashik Airport', 'Nashik Road Railway Station', 8);
+('Pune', 'Cultural capital of Maharashtra with forts, palaces and educational hubs', 
+'Pune, Maharashtra', 'https://goo.gl/maps/fL1Z2',
+'Shaniwar Wada, Aga Khan Palace, Sinhagad Fort, Dagdusheth Ganpati', 'Winter/Summer', 'Low',
+'Pune Airport', 'Pune Railway Station', 1),
 
+('Nashik', 'Wine capital of India and holy city for Kumbh Mela', 
+'Nashik, Maharashtra', 'https://goo.gl/maps/1WyP4EHpzjG2',
+'Trimbakeshwar Temple, Sula Vineyards, Pandav Leni Caves', 'All Seasons', 'Low',
+'Nashik Airport', 'Nashik Road Railway Station', 1),
 
+('Aurangabad', 'Historic city and gateway to Ajanta & Ellora caves', 
+'Aurangabad, Maharashtra', 'https://goo.gl/maps/fDFkG7xkzwP2',
+'Bibi Ka Maqbara, Ellora Caves, Daulatabad Fort', 'Winter', 'Low',
+'Aurangabad Airport', 'Aurangabad Railway Station', 1),
 
-select * from placetype;
-select * from places_details;
+('Kolhapur', 'City of Mahalaxmi Temple and wrestling traditions', 
+'Kolhapur, Maharashtra', 'https://goo.gl/maps/jLJk4',
+'Mahalaxmi Temple, Rankala Lake, Panhala Fort', 'Winter', 'Low',
+'Kolhapur Airport', 'Kolhapur Railway Station', 1),
+
+('Solapur', 'City known for Siddheshwar Temple and textile industries', 
+'Solapur, Maharashtra', 'https://goo.gl/maps/gwP3K',
+'Siddheshwar Temple, Great Indian Bustard Sanctuary', 'Winter', 'Low',
+'Sholapur Airport', 'Solapur Railway Station', 1),
+
+('Amravati', 'Cultural city with Ambadevi Temple and wildlife nearby', 
+'Amravati, Maharashtra', 'https://goo.gl/maps/3u6Rk',
+'Ambadevi Temple, Melghat Tiger Reserve, Satidham Temple', 'Winter', 'Low',
+'Nagpur Airport', 'Amravati Railway Station', 1),
+
+('Akola', 'Historic city with forts and temples', 
+'Akola, Maharashtra', 'https://goo.gl/maps/8Hk2g',
+'Narnala Fort, Ashok Vatika, Nehru Park', 'Winter', 'Low',
+'Nagpur Airport', 'Akola Junction Railway Station', 1),
+
+('Satara', 'City of seven hills, forts and waterfalls', 
+'Satara, Maharashtra', 'https://goo.gl/maps/Fy7gP',
+'Ajinkyatara Fort, Kaas Plateau, Sajjangad', 'Monsoon/Winter', 'Low',
+'Pune Airport', 'Satara Railway Station', 1),
+
+('Sangli', 'Known as the Turmeric City and cultural hub', 
+'Sangli, Maharashtra', 'https://goo.gl/maps/4Jg9V',
+'Ganapati Temple, Sagareshwar Wildlife Sanctuary', 'Winter', 'Low',
+'Kolhapur Airport', 'Sangli Railway Station', 1),
+
+('Jalgaon', 'Banana city of India with ancient caves nearby', 
+'Jalgaon, Maharashtra', 'https://goo.gl/maps/hP2s6',
+'Ajanta Caves, Patnadevi Temple, Gandhi Teerth', 'Winter', 'Low',
+'Aurangabad Airport', 'Jalgaon Railway Station', 1),
+
+('Chandrapur', 'City famous for Tadoba National Park', 
+'Chandrapur, Maharashtra', 'https://goo.gl/maps/xYz3K',
+'Tadoba Tiger Reserve, Mahakali Temple, Ballarpur Fort', 'Winter', 'Low',
+'Nagpur Airport', 'Chandrapur Railway Station', 1),
+
+('Wardha', 'Gandhi’s Sevagram Ashram city', 
+'Wardha, Maharashtra', 'https://goo.gl/maps/dQk6B',
+'Sevagram Ashram, Magan Sangrahalaya', 'Winter', 'Low',
+'Nagpur Airport', 'Wardha Railway Station', 1),
+
+('Thane', 'City of Lakes near Mumbai', 
+'Thane, Maharashtra', 'https://goo.gl/maps/n9H2L',
+'Upvan Lake, Kelva Beach, Yeoor Hills', 'All Seasons', 'Low',
+'Mumbai Airport', 'Thane Railway Station', 1),
+
+('Ahmednagar', 'City with forts and religious places', 
+'Ahmednagar, Maharashtra', 'https://goo.gl/maps/jd8V8',
+'Ahmednagar Fort, Meherabad, Cavalry Tank Museum', 'Winter', 'Low',
+'Shirdi Airport', 'Ahmednagar Railway Station', 1),
+
+('Ratnagiri', 'Coastal city famous for Alphonso mangoes', 
+'Ratnagiri, Maharashtra', 'https://goo.gl/maps/3jhT2',
+'Ganpatipule Beach, Ratnadurg Fort, Thiba Palace', 'Winter/Summer', 'Low',
+'Ratnagiri Airport (proposed)', 'Ratnagiri Railway Station', 1),
+
+('Dhule', 'Gateway to Satpura ranges and historic sites', 
+'Dhule, Maharashtra', 'https://goo.gl/maps/8pkP9',
+'Toranmal Hill Station, Ekvira Devi Temple', 'Winter', 'Low',
+'Aurangabad Airport', 'Dhule Railway Station', 1),
+
+('Latur', 'City known for forts and temples', 
+'Latur, Maharashtra', 'https://goo.gl/maps/7hN4X',
+'Udgir Fort, Siddheshwar Temple, Ganj Golai', 'Winter', 'Low',
+'Osmanabad Airport', 'Latur Railway Station', 1);

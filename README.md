@@ -62,7 +62,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Gaytari J        | ✓      | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
 | Mansi N          | ✓      | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
 | Shantanu Dorle   | ✓      | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
-|                  |        | Harishchandra Ghat        | Hill Station | Hill pass with trekking trails and viewpoints             |
+| Neha Thakre      | ✓      | Harishchandra Ghat        | Hill Station | Hill pass with trekking trails and viewpoints             |
 | Om ingle         |        | Igatpuri                  | Hill Station | Hill station with Vipassana centre and waterfalls         |
 | Sudhanshu S      | ✓      | Pach Madi                 | Hill Station | Hill station in Melghat region with forests               |
 | Pratiksha R      | ✓      | Chikandara                | Hill Station | Hill station near Melghat Tiger Reserve                   |

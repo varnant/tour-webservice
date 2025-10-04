@@ -1,0 +1,15 @@
+com\goroamindia\tour\TourWebserviceApplication.class
+com\goroamindia\tour\repository\PlaceDetailsRepository.class
+com\goroamindia\tour\repository\PlaceTypeRepository.class
+com\goroamindia\tour\service\PlaceService.class
+com\goroamindia\tour\ServletInitializer.class
+com\goroamindia\tour\service\impl\RatnagiriServiceImpl.class
+com\goroamindia\tour\model\TravelInfo.class
+com\goroamindia\tour\service\RatnagiriService.class
+com\goroamindia\tour\repository\RatnagiriRepository.class
+com\goroamindia\tour\service\impl\PlaceServiceImpl.class
+com\goroamindia\tour\config\DatabaseConfig.class
+com\goroamindia\tour\model\PlaceType.class
+com\goroamindia\tour\controller\PlaceController.class
+com\goroamindia\tour\model\PlaceDetails.class
+com\goroamindia\tour\controller\RatnagiriController.class

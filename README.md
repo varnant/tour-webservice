@@ -57,8 +57,8 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Gargie Purwar    | ✓      | Sambhaji Nagar            | City         | Historical city near Ajanta & Ellora caves                |
 | Vaibhavi G       | ✓      | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
 | Prashika T       | ✓      | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |
-|Ganesh D           |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
-|Minal D            |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
+| PAWAN DIGHORE    | ✓      | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
+| Minal D          | ✓      | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
 | Gaytari J        | ✓      | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
 | Mansi N          | ✓      | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
 | Shantanu Dorle   | ✓      | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
@@ -75,6 +75,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Chetan Rathod    | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
 | Purva Ughade     | ✓      | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
 | Jayant Meshram   | ✓      | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
+| Ganesh D         | ✓      | Shegaon                   | Religious    | famous for its shani mandir                               |
 
 ## How to Claim Your Place
 

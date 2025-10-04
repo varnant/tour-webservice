@@ -69,7 +69,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Rupali Korkanti  | ✓      | Seven Sisters Hills       | Hill Station | Scenic hills with trekking points                         |
 | Vaidehi Warambhe | ✓      | Ratnagiri                 | Beach        | Coastal city with beaches and forts                       |
 | Sarika Khorgade  | ✓      | Ganpatipule               | Beach        | Beach and pilgrimage site with Ganesh temple              |
-|                  |        | Aare Ware                 | Beach        | Twin beaches near Ratnagiri with scenic views             |
+| Harshal Nakade   | ✓      | Aare Ware                 | Beach        | Twin beaches near Ratnagiri with scenic views             |
 | Sarang Marotkar  | ✓      | Raighad                   | Historical   | Historical fort near Mahad, Chhatrapati Shivaji's capital |
 | Sandesh Mate     | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
 | Chetan Rathod    | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |

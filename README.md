@@ -52,7 +52,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Trainee | Choice | Place Name                | Place Type   | Description / Notes                                       |
 | ------- | ------ | ------------------------- | ------------ | --------------------------------------------------------- |
 |         |        | Mumbai                    | City         | Financial capital with beaches, landmarks, and markets    |
-| pranay     Done   |        | Pune                      | City         | Cultural hub with forts, gardens, heritage sites          |
+| pranay      |  done      | Pune                      | City         | Cultural hub with forts, gardens, heritage sites          |
 |utkarsha       | Done       | Nagpur                    | City         | Orange city, Zero Mile Marker, Futala Lake                |
 |         |        | Sambhaji Nagar            | City         | Historical city near Ajanta & Ellora caves                |
 |         |        | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |

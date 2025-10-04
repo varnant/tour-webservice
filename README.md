@@ -57,7 +57,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Gargie Purwar    | ✓      | Sambhaji Nagar            | City         | Historical city near Ajanta & Ellora caves                |
 | Vaibhavi G       | ✓      | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
 | Prashika T       | ✓      | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |
-|Ganesh D           |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
+|PAWAN DIGHORE       |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
 |Minal D            |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
 | Gaytari J        | ✓      | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
 | Mansi N          | ✓      | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |

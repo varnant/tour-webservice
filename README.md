@@ -1,46 +1,116 @@
-# tour-webservice
-Java FS Trainees from JDCollege Batch 1 and Batch 2 are to be involved -creating a tour web site -each and every trainee will be developing one Rest Controller for displaying the details of a place in Maharastra .The online web site goroamindia.com will be used to host this whole rest codes -to be completed by few students
-SQL(MySQL) tables :
-placetype table
+# Tour WebService - Maharashtra Tourism REST API
 
-refid place type
-1     city
-2     hill station
-3     beach
-4     waterfall
-5     Historical
-6     geography
-7     Zoo
-8     Religious-temples-muds-churches-mosque
-9     Seasonal festivals
+Java FS Trainees from JDCollege Batch 1 and Batch 2 are involved in creating a tour website for Maharashtra tourism.
+Each trainee will develop one REST Controller for displaying the details of a specific place in Maharashtra.
+The website will be hosted at **goroamindia.com**.
 
+## Project Overview
 
-places_details:
----------------
+This is a Spring Boot REST API project that provides comprehensive information about tourist places in Maharashtra, India.
 
-place_id
-Place_name
-description
-location
-Google_location
-palces_to_visit
-Season
-Crime against tourists
-Nearest Airport
-Nearest Railway Station
-placetype 
+## Database Schema
 
+### PlaceType Table
 
-Each trainee should pick one story-here one place
-Mumbai-Pune-Nagpur-Sambaji Nagar-Kolapur
-Ajanta Ellora
-Kaas Pathar - Lonar Salt lake
-Mahabaleswar-Lona walla-Arichandra Ghat-Igatpuri-Pach Madi-Cikandara-Seven Sisters Hills
-Ratnagiri-Ganpat Pule-Aare Ware-
-Raighad
-Thosigar Falls
-Pandharpur Vital Mandir-Kolapur-Lakshmi Temple
-Pick one and update here
+| refid | place_type                             |
+| ----- | -------------------------------------- |
+| 1     | City                                   |
+| 2     | Hill Station                           |
+| 3     | Beach                                  |
+| 4     | Waterfall                              |
+| 5     | Historical                             |
+| 6     | Geography                              |
+| 7     | Zoo / Wildlife                         |
+| 8     | Religious - Temples, Churches, Mosques |
+| 9     | Seasonal Festivals                     |
 
+### Places_Details Table
 
+| Column                  | Description                    |
+| ----------------------- | ------------------------------ |
+| place_id                | Primary Key (Auto Increment)   |
+| place_name              | Name of the place              |
+| description             | Detailed description           |
+| location                | Location details               |
+| google_location         | Google Maps URL                |
+| places_to_visit         | Tourist attractions            |
+| season                  | Best season to visit           |
+| crime_against_tourists  | Safety level                   |
+| nearest_airport         | Closest airport                |
+| nearest_railway_station | Closest railway station        |
+| placetype               | Foreign Key to placetype table |
 
+## Trainee Place Assignment Table
+
+**Instructions for Trainees:**
+
+1. Pick ONE place from the list below
+2. Add your name in the "Trainee" column next to your chosen place
+3. Create a REST Controller for that specific place
+4. Each place should be assigned to only ONE trainee
+
+| Trainee | Choice | Place Name                | Place Type   | Description / Notes                                       |
+| ------- | ------ | ------------------------- | ------------ | --------------------------------------------------------- |
+|         |        | Mumbai                    | City         | Financial capital with beaches, landmarks, and markets    |
+|         |        | Pune                      | City         | Cultural hub with forts, gardens, heritage sites          |
+|         |        | Nagpur                    | City         | Orange city, Zero Mile Marker, Futala Lake                |
+|         |        | Sambhaji Nagar            | City         | Historical city near Ajanta & Ellora caves                |
+|         |        | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
+|         |        | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |
+|         |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
+|         |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
+|         |        | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
+|         |        | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
+|         |        | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
+|         |        | Harishchandra Ghat        | Hill Station | Hill pass with trekking trails and viewpoints             |
+|         |        | Igatpuri                  | Hill Station | Hill station with Vipassana centre and waterfalls         |
+|         |        | Pach Madi                 | Hill Station | Hill station in Melghat region with forests               |
+|         |        | Chikandara                | Hill Station | Hill station near Melghat Tiger Reserve                   |
+|         |        | Seven Sisters Hills       | Hill Station | Scenic hills with trekking points                         |
+|         |        | Ratnagiri                 | Beach        | Coastal city with beaches and forts                       |
+|         |        | Ganpatipule               | Beach        | Beach and pilgrimage site with Ganesh temple              |
+|         |        | Aare Ware                 | Beach        | Twin beaches near Ratnagiri with scenic views             |
+|         |        | Raighad                   | Historical   | Historical fort near Mahad, Chhatrapati Shivaji's capital |
+|         |        | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
+|         |        | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
+|         |        | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
+
+## How to Claim Your Place
+
+1. **Edit this README.md file**
+2. **Add your name** in the "Trainee" column next to your chosen place
+3. **Mark "✓"** in the "Choice" column to confirm your selection
+4. **Commit your changes** with message: "Claimed [Place Name] - [Your Name]"
+5. **Create your REST Controller** for the assigned place
+
+## Project Structure (To be implemented)
+
+```
+src/main/java/com/goroamindia/tour/
+├── controller/          # REST Controllers (one per trainee/place)
+├── model/              # Entity classes
+├── repository/         # JPA Repositories
+├── service/            # Business logic
+├── config/             # Configuration classes
+└── TourWebserviceApplication.java
+```
+
+## REST API Endpoints (To be implemented)
+
+- `GET /api/places` - Get all places
+- `GET /api/places/{id}` - Get place by ID
+- `GET /api/places/type/{typeId}` - Get places by type
+- `GET /api/places/search?name={placeName}` - Search places by name
+
+## Technology Stack
+
+- **Java 17+**
+- **Spring Boot 3.x**
+- **Spring Data JPA**
+- **MySQL Database**
+- **Maven**
+- **REST API**
+
+## Database Setup
+
+See `SqlQuerry.txt` for the complete SQL script to create and populate the database with all 23 places in Maharashtra.

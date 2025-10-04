@@ -60,7 +60,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 |         |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
 |         |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
 |         |        | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
-|         |        | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
+|mansi|   done     | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
 |         |        | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
 |         |        | Harishchandra Ghat        | Hill Station | Hill pass with trekking trails and viewpoints             |
 |         |        | Igatpuri                  | Hill Station | Hill station with Vipassana centre and waterfalls         |

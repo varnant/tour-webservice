@@ -58,7 +58,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Vaibhavi G       | ✓      | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
 | Prashika T       | ✓      | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |
 |Ganesh D           |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
-|Minal D                  |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
+|Minal D            |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
 | Gaytari J        | ✓      | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
 | Mansi N          | ✓      | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
 | Shantanu Dorle   | ✓      | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
@@ -72,6 +72,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 |                  |        | Aare Ware                 | Beach        | Twin beaches near Ratnagiri with scenic views             |
 | Sarang Marotkar  | ✓      | Raighad                   | Historical   | Historical fort near Mahad, Chhatrapati Shivaji's capital |
 | Sandesh Mate     | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
+| Chetan Rathod    | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
 | Purva Ughade     | ✓      | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
 | Jayant Meshram   | ✓      | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
 

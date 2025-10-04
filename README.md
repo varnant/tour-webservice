@@ -71,7 +71,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Sarika Khorgade  | ✓      | Ganpatipule               | Beach        | Beach and pilgrimage site with Ganesh temple              |
 |                  |        | Aare Ware                 | Beach        | Twin beaches near Ratnagiri with scenic views             |
 | Sarang Marotkar  | ✓      | Raighad                   | Historical   | Historical fort near Mahad, Chhatrapati Shivaji's capital |
-| Sandesh Mate     |        | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
+| Sandesh Mate     | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
 | Purva Ughade     | ✓      | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
 | Jayant Meshram   | ✓      | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
 

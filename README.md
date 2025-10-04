@@ -1,5 +1,5 @@
 # tour-webservice
-Java FS Trainees from JDCollege Batch 1 and Batch are to be involved -creating a tour web site -each and every trainee will be developing one Rest Controller for displaying the details of a place in Maharastra .The online web site goroamindia.com will be used to host this whole rest codes -to be completed by few students
+Java FS Trainees from JDCollege Batch 1 and Batch 2 are to be involved -creating a tour web site -each and every trainee will be developing one Rest Controller for displaying the details of a place in Maharastra .The online web site goroamindia.com will be used to host this whole rest codes -to be completed by few students
 SQL(MySQL) tables :
 placetype table
 

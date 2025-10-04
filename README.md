@@ -63,7 +63,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Mansi N          | ✓      | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
 | Shantanu Dorle   | ✓      | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
 |                  |        | Harishchandra Ghat        | Hill Station | Hill pass with trekking trails and viewpoints             |
-|                  |        | Igatpuri                  | Hill Station | Hill station with Vipassana centre and waterfalls         |
+| Om ingle         |        | Igatpuri                  | Hill Station | Hill station with Vipassana centre and waterfalls         |
 | Sudhanshu S      | ✓      | Pach Madi                 | Hill Station | Hill station in Melghat region with forests               |
 | Pratiksha R      | ✓      | Chikandara                | Hill Station | Hill station near Melghat Tiger Reserve                   |
 | Rupali Korkanti  | ✓      | Seven Sisters Hills       | Hill Station | Scenic hills with trekking points                         |

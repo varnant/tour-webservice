@@ -51,29 +51,29 @@ This is a Spring Boot REST API project that provides comprehensive information a
 
 | Trainee          | Choice | Place Name                | Place Type   | Description / Notes                                       |
 | ---------------- | ------ | ------------------------- | ------------ | --------------------------------------------------------- |
-| Fulanshu Kuthe   |        | Mumbai                    | City         | Financial capital with beaches, landmarks, and markets    |
-| Pranay           |        | Pune                      | City         | Cultural hub with forts, gardens, heritage sites          |
-| Utkarsha I       |        | Nagpur                    | City         | Orange city, Zero Mile Marker, Futala Lake                |
-| Gargie Purwar    |        | Sambhaji Nagar            | City         | Historical city near Ajanta & Ellora caves                |
-| Vaibhavi G       |        | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
-| Prashika T       |        | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |
+| Fulanshu Kuthe   | ✓      | Mumbai                    | City         | Financial capital with beaches, landmarks, and markets    |
+| Pranay           | ✓      | Pune                      | City         | Cultural hub with forts, gardens, heritage sites          |
+| Utkarsha I       | ✓      | Nagpur                    | City         | Orange city, Zero Mile Marker, Futala Lake                |
+| Gargie Purwar    | ✓      | Sambhaji Nagar            | City         | Historical city near Ajanta & Ellora caves                |
+| Vaibhavi G       | ✓      | Kolhapur                  | City         | Known for Mahalaxmi Temple, Panhala Fort                  |
+| Prashika T       | ✓      | Ajanta                    | Historical   | UNESCO Buddhist rock-cut caves                            |
 |                  |        | Ellora                    | Historical   | UNESCO caves of Hindu, Jain, and Buddhist monuments       |
 |                  |        | Kaas Pathar               | Geography    | Plateau famous for seasonal wildflowers                   |
-| Gaytari J        |        | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
-| Mansi N          |        | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
-| Shantanu Dorle   |        | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
+| Gaytari J        | ✓      | Lonar Salt Lake           | Geography    | Meteorite crater lake with unique ecology                 |
+| Mansi N          | ✓      | Mahabaleshwar             | Hill Station | Strawberry capital and scenic hill station                |
+| Shantanu Dorle   | ✓      | Lonavala                  | Hill Station | Popular weekend getaway with caves and greenery           |
 |                  |        | Harishchandra Ghat        | Hill Station | Hill pass with trekking trails and viewpoints             |
 |                  |        | Igatpuri                  | Hill Station | Hill station with Vipassana centre and waterfalls         |
-| Sudhanshu S      |        | Pach Madi                 | Hill Station | Hill station in Melghat region with forests               |
-| Pratiksha R      |        | Chikandara                | Hill Station | Hill station near Melghat Tiger Reserve                   |
-| Rupali Korkanti  |        | Seven Sisters Hills       | Hill Station | Scenic hills with trekking points                         |
-| Vaidehi Warambhe |        | Ratnagiri                 | Beach        | Coastal city with beaches and forts                       |
-| Sarika Khorgade  |        | Ganpatipule               | Beach        | Beach and pilgrimage site with Ganesh temple              |
+| Sudhanshu S      | ✓      | Pach Madi                 | Hill Station | Hill station in Melghat region with forests               |
+| Pratiksha R      | ✓      | Chikandara                | Hill Station | Hill station near Melghat Tiger Reserve                   |
+| Rupali Korkanti  | ✓      | Seven Sisters Hills       | Hill Station | Scenic hills with trekking points                         |
+| Vaidehi Warambhe | ✓      | Ratnagiri                 | Beach        | Coastal city with beaches and forts                       |
+| Sarika Khorgade  | ✓      | Ganpatipule               | Beach        | Beach and pilgrimage site with Ganesh temple              |
 |                  |        | Aare Ware                 | Beach        | Twin beaches near Ratnagiri with scenic views             |
-| Sarang Marotkar  |        | Raighad                   | Historical   | Historical fort near Mahad, Chhatrapati Shivaji's capital |
+| Sarang Marotkar  | ✓      | Raighad                   | Historical   | Historical fort near Mahad, Chhatrapati Shivaji's capital |
 |                  |        | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
-| Purva Ughade     |        | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
-| Jayant Meshram   |        | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
+| Purva Ughade     | ✓      | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
+| Jayant Meshram   | ✓      | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
 
 ## How to Claim Your Place
 

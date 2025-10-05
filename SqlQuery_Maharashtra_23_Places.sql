@@ -110,6 +110,7 @@ INSERT INTO places_details
 VALUES
 ('Pandharpur Vitthal Mandir', 'Major pilgrimage of Lord Vitthal devotees', 'Solapur District, Maharashtra', 'https://goo.gl/maps/8jsrRaW33G92', 'Vitthal Temple, Chandrabhaga River', 'All Seasons', 'Low', 'Pune Airport', 'Kurduwadi Railway Station', 8),
 ('Kolhapur Lakshmi Temple', 'Famous temple dedicated to Goddess Lakshmi', 'Kolhapur, Maharashtra', 'https://goo.gl/maps/Lj3vSx1M2Qp', 'Mahalaxmi Temple, Jyotiba Temple nearby', 'All Seasons', 'Low', 'Kolhapur Airport', 'Kolhapur Railway Station', 8);
+('Shegaon Gajanan Maharaj Temple','Famous pilgrimage site dedicated to Shri Gajanan Maharaj, attracting devotees from all over India.','Shegaon, Buldhana District, Maharashtra','https://goo.gl/maps/JJvW8cft9x62','Gajanan Maharaj Temple, Anand Sagar, Shree Sant Gajanan Maharaj Sansthan Museum','All Seasons','Low','Akola Airport','Shegaon Railway Station',8);
 
 -- =====================================================
 -- Verification Queries

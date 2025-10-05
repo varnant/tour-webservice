@@ -1,9 +1,0 @@
-com\goroamindia\tour\controller\RaigadController.class
-com\goroamindia\tour\model\Place.class
-com\tour_webservice\TourWebserviceApplication.class
-com\goroamindia\tour\service\PlaceService.class
-com\goroamindia\tour\repository\PlaceRepository.class
-com\goroamindia\tour\controller\PlaceController.class
-com\goroamindia\tour\model\PlaceDetails.class
-com\goroamindia\tour\model\TravelInfo.class
-com\tour_webservice\ServletInitializer.class

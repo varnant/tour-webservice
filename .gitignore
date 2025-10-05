@@ -1,0 +1,16 @@
+# Ignore build output
+/target/
+*.class
+*.jar
+*.war
+
+# Ignore IDE/project files
+/.classpath
+/.project
+/.settings/
+/.idea/
+/*.iml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

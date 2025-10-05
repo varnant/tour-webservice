@@ -40,7 +40,7 @@ public class LonavalaController {
     @GetMapping("/Lonavala/travel-info")
     public ResponseEntity<TravelInfo> getTravelInfo() {
         try {
-            TravelInfo travelInfo = placeService.getTravelInfoForPlace("Your Place Name");
+            TravelInfo travelInfo = placeService.getTravelInfoForPlace("Lonavala");
             return ResponseEntity.ok(travelInfo);
         } catch (Exception e) {
             return ResponseEntity.notFound().build();

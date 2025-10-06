@@ -72,7 +72,7 @@ This is a Spring Boot REST API project that provides comprehensive information a
 | Harshal Nakade   | ✓      | Aare Ware                 | Beach        | Twin beaches near Ratnagiri with scenic views             |
 | Sarang Marotkar  | ✓      | Raighad                   | Historical   | Historical fort near Mahad, Chhatrapati Shivaji's capital |
 | Sandesh Mate     | ✓      | Amboli Waterfalls         | Waterfall    | Scenic waterfall surrounded by hills                      |
-| Chetan Rathod    | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall surrounded by hills                      |
+| Chetan Rathod    | ✓      | Thoseghar Falls           | Waterfall    | Scenic waterfall highest in the Sahyadris                 |
 | Purva Ughade     | ✓      | Pandharpur Vitthal Mandir | Religious    | Major pilgrimage of Lord Vitthal devotees                 |
 | Jayant Meshram   | ✓      | Kolhapur Lakshmi Temple   | Religious    | Famous temple dedicated to Goddess Lakshmi                |
 | Ganesh D         | ✓      | Shegaon                   | Religious    | famous for its shani mandir                               |

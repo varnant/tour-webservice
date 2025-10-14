@@ -1,53 +1,48 @@
 package com.goroamindia.tour.controller;
 
-import com.goroamindia.tour.service.IgatpuriService;
+import com.goroamindia.tour.service.KasPatharService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/igatpuri")
-public class IgatpuriController {
+@RequestMapping("/api/kaspathar")
+public class KasPatharController {
 
     @Autowired
-    private IgatpuriService igatpuriService;
+    private KasPatharService kasPatharService;
 
     @GetMapping("/about")
     public String aboutPlace() {
-        return igatpuriService.aboutPlace();
+        return kasPatharService.aboutPlace();
     }
-
-    @GetMapping("/religion")
-    public String aboutReligion() {
-        return igatpuriService.aboutRelgion();
-    }
-
+    
     @GetMapping("/airport")
     public String getNearByAirport() {
-        return igatpuriService.getNearByAirport();
+        return kasPatharService.getNearByAirport();
     }
 
     @GetMapping("/railway")
     public String getNearByRailwayStation() {
-        return igatpuriService.getNearByRailwayStation();
+        return kasPatharService.getNearByRailwayStation();
     }
 
     @GetMapping("/city")
     public String getNearByCity() {
-        return igatpuriService.getNearByCity();
+        return kasPatharService.getNearByCity();
     }
 
     @GetMapping("/town")
     public String getNearByTown() {
-        return igatpuriService.getNdearByTown();
+        return kasPatharService.getNdearByTown();
     }
 
     @GetMapping("/places")
     public String getPlacesToVisit() {
-        return igatpuriService.getPlacestovisit();
+        return kasPatharService.getPlacestovisit();
     }
 
     @GetMapping("/season")
     public String getSeason() {
-        return igatpuriService.getSeason();
+        return kasPatharService.getSeason();
     }
 }

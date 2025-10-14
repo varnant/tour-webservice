@@ -118,4 +118,9 @@ public class PlaceDetails {
     public void setPlacetype(Integer placetype) {
         this.placetype = placetype;
     }
+
+	public String getNearbyTown() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
